@@ -15,7 +15,7 @@ if (os.platform() === 'win32') {
 } else {
 	// Using 'xterm-256color' here helps ensure that the majority of Linux distributions will use a
 	// color prompt as defined in the default ~/.bashrc file.
-	shellName = 'xterm-256color';
+	shellName = 'rxvt-unicode-256color';
 }
 var shell = process.env.PTYSHELL;
 var args = getArgs();
